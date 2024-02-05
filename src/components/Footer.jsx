@@ -1,4 +1,4 @@
-import Logo from "../assets/mindlandlogo.png";
+import Logo from "../../public/img/brandlogo.png";
 
 function Footer() {
   return (
@@ -8,43 +8,26 @@ function Footer() {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <a href="" className="flex items-center">
-                <img src={Logo} className="mr-3 h-8" alt="MindLand Logo" />
+                <img src={Logo} className="mr-3 h-8" alt="Smansa Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  Mind Land
+                  SMANSASEMBALUN.
                 </span>
               </a>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Resources
-                </h2>
-                <ul className="text-gray-600 dark:text-gray-400">
-                  <li className="mb-4">
-                    <a href="" className="hover:underline">
-                      Flowbite
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" className="hover:underline">
-                      Tailwind CSS
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Follow us
+                  Ikuti Kami
                 </h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                   <li className="mb-4">
                     <a href="" className="hover:underline ">
-                      Github
+                      Facebook
                     </a>
                   </li>
                   <li>
                     <a href="" className="hover:underline">
-                      Discord
+                      Instagram
                     </a>
                   </li>
                 </ul>
@@ -71,9 +54,9 @@ function Footer() {
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-              © 2023{" "}
+              © 2024{" "}
               <a href="/" className="hover:underline">
-                Mind Land
+                SMAN 1 SEMBALUN
               </a>
               . All Rights Reserved.
             </span>

@@ -1,8 +1,7 @@
 "use client";
 
-import { Button, Navbar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import logo from "../../public/img/brandlogo.png";
-import { HiChevronRight } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 import { navLinks } from "../data/index";
 
@@ -17,13 +16,6 @@ function Navbarcomponent() {
             alt="Flowbite React Logo"
           />
         </Navbar.Brand>
-        <div className="flex md:order-2">
-          <Button color="primary" className="justify-center">
-            Masuk
-            <HiChevronRight className="ml-2 h-5 w-5" />
-          </Button>
-          <Navbar.Toggle />
-        </div>
         <Navbar.Collapse className="cursor-pointer ">
           {navLinks.map((link) => {
             return (
