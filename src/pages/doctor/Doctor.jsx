@@ -1,10 +1,5 @@
 import { TextInput, Button, Badge } from "flowbite-react";
-import {
-  HiSearch,
-  HiChatAlt2,
-  HiUserGroup,
-  HiTrendingUp,
-} from "react-icons/hi";
+import { HiSearch, HiChatAlt2, HiUserGroup } from "react-icons/hi";
 import HeroDoctor from "../../assets/lottie/Herodoctor.json";
 import Lottie from "lottie-react";
 import Getdokter from "../templates/Getdokter";
@@ -40,21 +35,19 @@ const Doctor = () => {
               data-aos-duration="1500"
             >
               <h1 className="max-w-2xl text-color-primary-500 mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
-                Cari Dokter
+                Cari Guru
               </h1>
               <p className="max-w-2xl mb-6 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-100">
-                tidak perlu cemas dengan kondisi kamu sekarang, coba tanyakan
-                keluhanmu kepada dokter expert.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Blanditiis consequuntur aliquam aliquid itaque debitis!
+                Inventore.
               </p>
               <div className="flex flex-wrap gap-2">
                 <Badge color="primary" icon={HiChatAlt2}>
-                  Chat AI
+                  Visi
                 </Badge>
                 <Badge color="primary" icon={HiUserGroup}>
-                  Forum Diskusi
-                </Badge>
-                <Badge color="primary" icon={HiTrendingUp}>
-                  Cek Tingkat Stress
+                  Misi
                 </Badge>
               </div>
               <div className="flex gap-2 mt-6">
@@ -62,7 +55,7 @@ const Doctor = () => {
                   id=""
                   sizing="lg"
                   type="email"
-                  placeholder="Dr. Ahmad Ali.."
+                  placeholder="Cari disini.."
                   required
                   onChange={handleSearch}
                   value={searchTerm}
@@ -104,7 +97,7 @@ const Doctor = () => {
                     id=""
                     sizing="sm"
                     type="email"
-                    placeholder="Nama/Spesialis"
+                    placeholder="Nama/Jabatan"
                     required
                     icon={HiSearch}
                     onChange={handleSearch}
@@ -114,7 +107,7 @@ const Doctor = () => {
                 </div>
                 <div className="hidden md:block">
                   <p className="text-gray-700 dark:text-gray-400 flex items-center text-sm">
-                    Menampilkan {doctorsCount} daftar dokter
+                    Menampilkan {doctorsCount} daftar guru
                   </p>
                 </div>
               </div>

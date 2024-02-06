@@ -28,11 +28,11 @@ function App() {
           {shouldShowNavbarFooter && <Navbarcomponent />}
           <Routes>
             <Route path="/" Component={Homepage}></Route>
-            <Route path="/About" Component={About}></Route>
+            <Route path="/tentang" Component={About}></Route>
             <Route path="/checknow" Component={Checknowpage}></Route>
-            <Route path="/articles" Component={Articles}></Route>
+            <Route path="/berita" Component={Articles}></Route>
             <Route path="/detailarticles" Component={Detailarticles}></Route>
-            <Route path="/doctor" Component={Doctor}></Route>
+            <Route path="/guru" Component={Doctor}></Route>
             <Route path="/faq" Component={Faqcomponent}></Route>
             <Route path="/chatai" Component={ChatAiPage}></Route>
           </Routes>

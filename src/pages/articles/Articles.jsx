@@ -1,10 +1,5 @@
 import { TextInput, Button, Badge, Dropdown } from "flowbite-react";
-import {
-  HiSearch,
-  HiChatAlt2,
-  HiUserGroup,
-  HiTrendingUp,
-} from "react-icons/hi";
+import { HiSearch, HiChatAlt2, HiUserGroup } from "react-icons/hi";
 import HeroArticle from "../../assets/lottie/heroArticle.json";
 import Lottie from "lottie-react";
 import Getarticles from "../templates/Getarticles";
@@ -47,21 +42,19 @@ function Articles() {
               data-aos-duration="1500"
             >
               <h1 className="max-w-2xl text-color-primary-500 mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
-                Cari Artikel
+                Cari Berita
               </h1>
               <p className="max-w-2xl mb-6 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-100">
-                tidak perlu cemas dengan kondisi kamu sekarang, setelah membaca
-                kamu mungkin akan merasa lebih baik
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
+                debitis esse fuga natus nostrum dolores dolorum optio deleniti
+                incidunt quis.
               </p>
               <div className="flex flex-wrap gap-2">
                 <Badge color="primary" icon={HiChatAlt2}>
-                  Chat AI
+                  visi
                 </Badge>
                 <Badge color="primary" icon={HiUserGroup}>
-                  Forum Diskusi
-                </Badge>
-                <Badge color="primary" icon={HiTrendingUp}>
-                  Cek Tingkat Stress
+                  misi
                 </Badge>
               </div>
               <div className="flex gap-2 mt-6">
@@ -99,7 +92,7 @@ function Articles() {
         <section className="h-full flex flex-col items-center justify-center w-full">
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 w-full">
             <h3 className="text-2xl font-bold dark:text-white mb-6 text-color-primary-500">
-              Artikel Populer
+              Berita Populer
             </h3>
             <div className="grid gap-8 lg:grid-cols-2 mb-12">
               <Getpopulararticles />
@@ -108,7 +101,7 @@ function Articles() {
               className="text-2xl font-bold dark:text-white mb-6 text-color-primary-500"
               id="article-section"
             >
-              Cari Artikel
+              Cari Berita
             </h3>
             <div className="mx-auto text-center lg:mb-10 mb-8">
               <div className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-row justify-between items-center">
@@ -137,17 +130,12 @@ function Articles() {
                       <Dropdown.Item
                         onClick={() => handleCategorySelect("mental_health")}
                       >
-                        Mental Health
+                        Terbaru
                       </Dropdown.Item>
                       <Dropdown.Item
                         onClick={() => handleCategorySelect("anxiety")}
                       >
-                        Anxiety
-                      </Dropdown.Item>
-                      <Dropdown.Item
-                        onClick={() => handleCategorySelect("introvert")}
-                      >
-                        Introvert
+                        Sering dicari
                       </Dropdown.Item>
                       <Dropdown.Item onClick={() => handleCategorySelect("")}>
                         Semua kategori
@@ -157,7 +145,7 @@ function Articles() {
                 </div>
                 <div className="hidden md:block">
                   <p className="text-gray-700 dark:text-gray-400 flex items-center text-sm">
-                    Menampilkan {articleCount} artikel
+                    Menampilkan {articleCount} berita
                   </p>
                 </div>
               </div>
