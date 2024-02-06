@@ -1,5 +1,5 @@
 import { Badge } from "flowbite-react";
-import { HiChatAlt2, HiTrendingUp, HiUserGroup } from "react-icons/hi";
+import { HiChatAlt2, HiUserGroup } from "react-icons/hi";
 import Getpopulararticles from "../pages/templates/Getpopulararticles";
 import { useNavigate } from "react-router-dom";
 import Lottie from "lottie-react";
@@ -20,33 +20,30 @@ function Homepage() {
               data-aos-duration="1500"
             >
               <h1 className="max-w-2xl text-color-primary-500 mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
-                Mindland
+                Selamat datang di
                 <br />
-                Teman Setia Kamu
+                SMAN 1 SEMBALUN
               </h1>
               <p className="max-w-2xl mb-6 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-100">
-                Chat psikolog, test tingkat stress, forum diskusi, artikel
-                kesehatan mental, dan chat bersama exppert.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam, inventore!
               </p>
               <a
                 href="#"
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-color-primary-500 hover:bg-color-primary-600 focus:ring-4 focus:ring-color-primary-300 dark:focus:ring-color-primary-900"
                 onClick={() => naviget("/checknow")}
               >
-                Periksa Sekarang
+                Exlore Now
               </a>
               <p className="mt-6 mb-4 font-bold text-gray-600 dark:text-white">
-                Layanan Favorite Kami
+                {/* Layanan Favorite Kami */}
               </p>
               <div className="flex flex-wrap gap-2">
                 <Badge color="primary" icon={HiChatAlt2}>
-                  Chat AI
+                  Visi
                 </Badge>
                 <Badge color="primary" icon={HiUserGroup}>
-                  Forum Diskusi
-                </Badge>
-                <Badge color="primary" icon={HiTrendingUp}>
-                  Cek Tingkat Stress
+                  Misi
                 </Badge>
               </div>
             </div>
@@ -66,11 +63,11 @@ function Homepage() {
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 w-full">
             <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
               <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                Article terbaru
+                Berita terbaru
               </h2>
               <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-                Tidak perlu cemas dengan kondisi kamu sekarang, setelah membaca
-                kamu mungkin akan merasa lebih baik
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium neque tempora maiores?
               </p>
             </div>
             <div className="grid gap-8 lg:grid-cols-2">

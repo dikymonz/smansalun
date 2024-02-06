@@ -57,10 +57,10 @@
   "dokter" : [
     {
       "id": 1,
-      "title": "sibagus wow",
+      "title": "Johri, S.Ag",
       "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
       "pengalaman": 5,
-      "role": "Psikolog",
+      "role": "Kepala Sekolah",
       "alumni" : "universitas negeri gorontalo",
       "praktik" : "bekasi, jawa barat", 
       "pengikut" : 3000,
