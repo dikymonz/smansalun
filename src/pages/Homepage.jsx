@@ -3,6 +3,7 @@ import { HiChatAlt2, HiUserGroup } from "react-icons/hi";
 import Getpopulararticles from "../pages/templates/Getpopulararticles";
 import { useNavigate } from "react-router-dom";
 import Lottie from "lottie-react";
+// import Bgimage from "../../public/img/bg.jpg";
 import HeroImage from "../assets/lottie/Hero.json";
 import Faqcomponent from "../components/Faq";
 

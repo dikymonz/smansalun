@@ -46,6 +46,61 @@ export const DokterUnggulan = [
       maxRating: 5
     }
   },
+  {
+    id: 1,
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
+    title: "H. Mustiadi, NH.",
+    experience: "Komite Sekolah",
+    alumni : "Universitas Brawijaya",
+    rating: {
+      stars: [
+        { filled: true },
+        { filled: true },
+        { filled: true },
+        { filled: true },
+        { filled: false }
+      ],
+      average: 4.95,
+      maxRating: 5
+    }
+  },
+  {
+    id: 1,
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
+    title: "H. Martua Hamonongan Nasution, S.Pd.",
+    experience: "Pengawas Pembina",
+    alumni : "Universitas Brawijaya",
+    rating: {
+      stars: [
+        { filled: true },
+        { filled: true },
+        { filled: true },
+        { filled: true },
+        { filled: false }
+      ],
+      average: 4.95,
+      maxRating: 5
+    }
+  },
+  {
+    id: 1,
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
+    title: "Suhardi, A.Md,.",
+    experience: "Kepala Tata Usaha",
+    alumni : "Universitas Brawijaya",
+    rating: {
+      stars: [
+        { filled: true },
+        { filled: true },
+        { filled: true },
+        { filled: true },
+        { filled: false }
+      ],
+      average: 4.95,
+      maxRating: 5
+    }
+  },
+  
 ]
 
 
