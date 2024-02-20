@@ -1,5 +1,10 @@
 import { Modal, Button } from "flowbite-react";
-import { HiOutlineChat, HiBriefcase, HiEmojiHappy, HiStar } from "react-icons/hi";
+import {
+  HiOutlineChat,
+  HiBriefcase,
+  HiEmojiHappy,
+  HiStar,
+} from "react-icons/hi";
 import PropTypes from "prop-types";
 
 function Profiledetailmodal({ closeModal, openModal, profileDetail }) {
@@ -13,10 +18,13 @@ function Profiledetailmodal({ closeModal, openModal, profileDetail }) {
   } = profileDetail;
 
   const phoneNumberFormater = (number) => {
-    const nomorBersih = `${number}`.replace(/\D/g, ''); // Menghilangkan karakter selain angka
-    const nomorFormatted = nomorBersih.replace(/(\d{4})(\d{4})(\d{3})/, '$1-$2-$3');
+    const nomorBersih = `${number}`.replace(/\D/g, ""); // Menghilangkan karakter selain angka
+    const nomorFormatted = nomorBersih.replace(
+      /(\d{4})(\d{4})(\d{3})/,
+      "$1-$2-$3"
+    );
     return nomorFormatted;
-  }
+  };
 
   return (
     <>
@@ -63,7 +71,8 @@ function Profiledetailmodal({ closeModal, openModal, profileDetail }) {
           <div className="flex flex-col gap-4 mb-4 md:flex-row md:gap-8">
             <dl className="flex-2">
               <dd className="flex items-center text-gray-500">
-                <HiBriefcase className="mr-1 h-4 w-4" />{role}
+                <HiBriefcase className="mr-1 h-4 w-4" />
+                {role}
               </dd>
               <dd className="flex items-center mb-4 text-gray-500">
                 <HiEmojiHappy className="mr-1 h-4 w-4" />
@@ -80,7 +89,7 @@ function Profiledetailmodal({ closeModal, openModal, profileDetail }) {
                 Rating
               </dt>
               <dd className="flex items-center mb-4 font-light text-gray-500 sm:mb-5 dark:text-gray-400">
-                <HiStar  className="mr-1 h-4 w-4" />
+                <HiStar className="mr-1 h-4 w-4" />
                 {avarage}
               </dd>
             </dl>
@@ -217,13 +226,13 @@ Profiledetailmodal.propTypes = {
     image: PropTypes.string,
     role: PropTypes.string,
     rating: PropTypes.shape({
-      avarage: PropTypes.number
+      avarage: PropTypes.number,
     }),
     tentang: PropTypes.string,
     kontak: PropTypes.shape({
       email: PropTypes.string,
-      nomor_telp: PropTypes.number
-    })
+      nomor_telp: PropTypes.number,
+    }),
   }),
 };
 

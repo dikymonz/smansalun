@@ -9,24 +9,28 @@ export const MyFeature = [
     id: 1,
     image: StressIcon,
     title: "Guru",
+    tooltip: "25 Guru",
     link: "/stress-page"
   },
   {
     id: 2,
     image: AnxietyIcon,
     title: "Siswa",
+    tooltip: "255 Siswa",
     link: "/anxiety-page"
   },
   {
     id: 3,
     image: DepressionIcon,
     title: "Ruangan",
+    tooltip: "9 Ruangan",
     link: "/depression-page"
   },
   {
     id: 4,
     image: TraumaIcon,
     title: "Ekstrakulikuler",
+    tooltip: "11 Ekstrakulikuler",
     link: "/chatai"
   },
 ];

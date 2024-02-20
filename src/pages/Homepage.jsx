@@ -2,8 +2,7 @@ import { Badge } from "flowbite-react";
 import { HiChatAlt2, HiUserGroup } from "react-icons/hi";
 import Getpopulararticles from "../pages/templates/Getpopulararticles";
 import { useNavigate } from "react-router-dom";
-import Lottie from "lottie-react";
-import HeroImage from "../assets/lottie/Hero.json";
+import HeroImg from "../assets/HeroImg.png";
 import Faqcomponent from "../components/Faq";
 import Featurecard from "../components/Featurecard";
 import key from "../assets/smansalogo.png";
@@ -50,11 +49,12 @@ function Homepage() {
               </div>
             </div>
             <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-              <Lottie
-                animationData={HeroImage}
+              <img
+                src={HeroImg}
                 alt="hero"
                 data-aos="fade-left"
                 data-aos-duration="1500"
+                className="size max-md:"
               />
             </div>
           </div>

@@ -9,8 +9,8 @@
     {
       "id": 1,
       "title": "satu Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fuga?",
-      "kategory": "mental_health",
-      "author": "Dr.Supratman",
+      "kategory": "terbaru",
+      "author": "M. Diki Iswari",
       "postAt" : "11-26-2023",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum reprehenderit ex, modi mollitia temporibus quas culpa expedita unde blanditiis nihil velit perferendis illum eligendi maxime impedit inventore, consectetur quo deleniti, animi aliquam a quaerat sequi? Sequi assumenda harum doloremque sit inventore reprehenderit laboriosam,",
       "viewed": 13
@@ -18,8 +18,8 @@
     {
       "id": 2,
       "title": "dua Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fuga?",
-      "kategory": "mental_health",
-      "author": "Dr.Supratman",
+      "kategory": "sering_dicari",
+      "author": "M. Diki Iswari",
       "postAt" : "11-26-2023",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum reprehenderit ex, modi mollitia temporibus quas culpa expedita unde blanditiis nihil velit perferendis illum eligendi maxime impedit inventore, consectetur quo deleniti, animi aliquam a quaerat sequi? Sequi assumenda harum doloremque sit inventore reprehenderit laboriosam,",
       "viewed": 13
@@ -27,8 +27,8 @@
     {
       "id": 3,
       "title": "tiga Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fuga?",
-      "kategory": "anxiety",
-      "author": "Dr.Supratman",
+      "kategory": "terbaru",
+      "author": "M. Diki Iswari",
       "postAt" : "11-26-2023",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum reprehenderit ex, modi mollitia temporibus quas culpa expedita unde blanditiis nihil velit perferendis illum eligendi maxime impedit inventore, consectetur quo deleniti, animi aliquam a quaerat sequi? Sequi assumenda harum doloremque sit inventore reprehenderit laboriosam,",
       "viewed": 13
@@ -36,8 +36,8 @@
     {
       "id": 4,
       "title": "empat Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fuga?",
-      "kategory": "introvert",
-      "author": "Dr.Supratman",
+      "kategory": "terbaru",
+      "author": "M. Diki Iswari",
       "postAt" : "11-26-2023",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum reprehenderit ex, modi mollitia temporibus quas culpa expedita unde blanditiis nihil velit perferendis illum eligendi maxime impedit inventore, consectetur quo deleniti, animi aliquam a quaerat sequi? Sequi assumenda harum doloremque sit inventore reprehenderit laboriosam,",
       "viewed": 13
@@ -48,7 +48,7 @@
       "id": 1,
       "title": "satu Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fuga?",
       "kategory": "mental_health",
-      "author": "Dr.Supratman",
+      "author": "M. Diki Iswari",
       "postAt" : "11-26-2023",
       "body": "<p className=\"lead\">\r\n              Flowbite is an open-source library of UI components built with the\r\n              utility-first classes from Tailwind CSS. It also includes\r\n              interactive elements such as dropdowns, modals, datepickers.\r\n            <\/p>\r\n            <p>\r\n              Before going digital, you might benefit from scribbling down some\r\n              ideas in a sketchbook. This way, you can think things through\r\n              before committing to an actual design project.\r\n            <\/p>\r\n            <p>\r\n              But then I found a\r\n              <a href=\"https:\/\/flowbite.com\">\r\n                component library based on Tailwind CSS called Flowbite\r\n              <\/a>\r\n              . It comes with the most commonly used UI components, such as\r\n              buttons, navigation bars, cards, form elements, and more which are\r\n              conveniently built with the utility classes from Tailwind CSS.\r\n            <\/p>\r\n            <figure>\r\n              <img\r\n                src=\"https:\/\/flowbite.s3.amazonaws.com\/typography-plugin\/typography-image-1.png\"\r\n                alt=\"\"\r\n              \/>\r\n              <figcaption>Digital art by Anonymous<\/figcaption>\r\n            <\/figure>\r\n            <h2>Getting started with Flowbite<\/h2>\r\n            <p>\r\n              First of all you need to understand how Flowbite works. This\r\n              library is not another framework. Rather, it is a set of\r\n              components based on Tailwind CSS that you can just copy-paste from\r\n              the documentation.\r\n            <\/p>",
       "viewed": 13
@@ -61,8 +61,8 @@
       "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
       "pengalaman": 5,
       "role": "Kepala Sekolah",
-      "alumni" : "universitas negeri gorontalo",
-      "praktik" : "bekasi, jawa barat", 
+      "alumni" : "-",
+      "praktik" : "-", 
       "pengikut" : 3000,
       "rating" : {
         "stars": [
@@ -78,12 +78,12 @@
     },
     {
       "id": 2,
-      "title": "sibagus hihi",
+      "title": "H. Mustiadi, NH.",
       "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
       "pengalaman": 5,
-      "role": "Psikolog",
-      "alumni" : "universitas negeri gorontalo",
-      "praktik" : "bekasi, jawa barat", 
+      "role": "Komite Sekkolah",
+      "alumni" : "-",
+      "praktik" : "-", 
       "pengikut" : 3000,
       "rating" : {
         "stars": [
@@ -99,12 +99,12 @@
     },
     {
       "id": 3,
-      "title": "sibagus haha",
+      "title": "Razikin Masruri, S.Pd.",
       "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
       "pengalaman": 5,
-      "role": "Psikolog",
-      "alumni" : "universitas negeri gorontalo",
-      "praktik" : "bekasi, jawa barat", 
+      "role": "Waka Humas",
+      "alumni" : "-",
+      "praktik" : "-", 
       "pengikut" : 3000,
       "rating" : {
         "stars": [
@@ -121,13 +121,13 @@
   ],
   "detailDokter" : 
     {
-      "id": 3,
-      "title": "sibagus haha",
+      "id": 1,
+      "title": "Johri, S.Ag",
       "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
       "pengalaman": 5,
-      "role": "Psikolog",
-      "alumni" : "universitas negeri gorontalo",
-      "praktik" : "bekasi, jawa barat", 
+      "role": "Kepala Sekolah",
+      "alumni" : "-",
+      "praktik" : "-", 
       "pengikut" : 3000,
       "rating" : {
         "avarage": 4.95,
@@ -135,8 +135,8 @@
       },
       "tentang": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit dignissimos, cumque expedita in sit odio itaque culpa, perspiciatis totam quis eos maxime porro beatae id! Voluptate unde qui nisi!",
       "kontak": {
-        "email": "mohamadrafiqd@gmail.com",
-        "nomor_telp": 81242219002
+        "email": "diky.monz03@gmail.com",
+        "nomor_telp": 83129416643
       }
     }
 }

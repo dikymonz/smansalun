@@ -1,6 +1,6 @@
 import { TextInput, Button, Badge } from "flowbite-react";
 import { HiSearch, HiChatAlt2, HiUserGroup } from "react-icons/hi";
-import HeroDoctor from "../../assets/lottie/Herodoctor.json";
+import HeroGuru from "../../assets/lottie/Herodoctor.json";
 import Lottie from "lottie-react";
 import Getdokter from "../templates/Getdokter";
 import { useState } from "react";
@@ -64,7 +64,7 @@ const Doctor = () => {
                 <Button
                   color="primary"
                   className="flex-2"
-                  onClick={() => hadnleButtonSearch("doctor-section")}
+                  onClick={() => hadnleButtonSearch("guru-section")}
                 >
                   <HiSearch className="h-6 w-6" />
                 </Button>
@@ -72,7 +72,7 @@ const Doctor = () => {
             </div>
             <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
               <Lottie
-                animationData={HeroDoctor}
+                animationData={HeroGuru}
                 alt="hero"
                 data-aos="fade-left"
                 data-aos-duration="1500"
@@ -86,9 +86,9 @@ const Doctor = () => {
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 w-full">
             <h3
               className="mt-6 text-2xl font-bold dark:text-white mb-6 text-color-primary-500"
-              id="doctor-section"
+              id="guru-section"
             >
-              Cari Dokter
+              Cari Guru
             </h3>
             <div className="mx-auto text-center lg:mb-10 mb-8">
               <div className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-row justify-between items-center">

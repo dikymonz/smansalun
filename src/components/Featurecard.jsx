@@ -1,6 +1,9 @@
+("use client");
 import Lottie from "lottie-react";
 import { MyFeature } from "../data";
-import { Link } from "react-router-dom"; // Import Link dari React Router jika digunakan
+
+import { Tooltip } from "flowbite-react";
+// import { Link } from "react-router-dom"; // Import Link dari React Router jika digunakan
 
 const Featurecard = () => {
   return (
@@ -8,9 +11,10 @@ const Featurecard = () => {
       {MyFeature.map((fitur) => {
         return (
           <div key={fitur.id}>
-            <Link to={fitur.link} className="group">
+            {/* <Link to={fitur.link} className="group"> */}
+            <Tooltip content={fitur.tooltip} trigger="click">
               <div
-                className="shadow-lg w-full max-w-sm bg-white border border-gray-200 rounded-lg hover:bg-color-primary-500 transition duration-300 ease-in-out hover:text-white cursor-pointer"
+                className=" shadow-lg w-full max-w-sm bg-white border border-gray-200 rounded-lg hover:bg-color-primary-500 transition duration-300 ease-in-out hover:text-white cursor-pointer"
                 style={{ width: "97px", height: "137px" }}
               >
                 <div className="flex flex-col items-center">
@@ -25,7 +29,8 @@ const Featurecard = () => {
                   </h5>
                 </div>
               </div>
-            </Link>
+            </Tooltip>
+            {/* </Link> */}
           </div>
         );
       })}

@@ -128,12 +128,12 @@ function Articles() {
                       color="primary"
                     >
                       <Dropdown.Item
-                        onClick={() => handleCategorySelect("mental_health")}
+                        onClick={() => handleCategorySelect("terbaru")}
                       >
                         Terbaru
                       </Dropdown.Item>
                       <Dropdown.Item
-                        onClick={() => handleCategorySelect("anxiety")}
+                        onClick={() => handleCategorySelect("sering_dicari")}
                       >
                         Sering dicari
                       </Dropdown.Item>
