@@ -8,48 +8,32 @@ export const MyFeature = [
   {
     id: 1,
     image: StressIcon,
-    title: "Stress"
+    title: "Guru",
+    tooltip: "25 Guru",
+    link: "/stress-page"
   },
   {
     id: 2,
     image: AnxietyIcon,
-    title: "Gangguan Kecemasan"
+    title: "Siswa",
+    tooltip: "255 Siswa",
+    link: "/anxiety-page"
   },
   {
     id: 3,
     image: DepressionIcon,
-    title: "Depresi"
+    title: "Ruangan",
+    tooltip: "9 Ruangan",
+    link: "/depression-page"
   },
   {
     id: 4,
     image: TraumaIcon,
-    title: "Trauma"
+    title: "Ekstrakulikuler",
+    tooltip: "11 Ekstrakulikuler",
+    link: "/chatai"
   },
-]
-
-export const DokterUnggulan = [
-  {
-    id: 1,
-    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww",
-    title: "Johri, S.Ag",
-    experience: "Kepala Sekolah",
-    alumni : "Universitas Brawijaya",
-    rating: {
-      stars: [
-        { filled: true },
-        { filled: true },
-        { filled: true },
-        { filled: true },
-        { filled: false }
-      ],
-      average: 4.95,
-      maxRating: 5
-    }
-  },
-]
-
-
-
+];
 
 
 
@@ -61,22 +45,22 @@ export const navLinks = [
   },
   {
     id: 2,
-    path: "articles",
-    text: "Artikel",
+    path: "/berita",
+    text: "Berita",
   },
   {
     id: 3,
-    path: "doctor",
+    path: "/guru",
     text: "Guru",
   },
   {
     id: 4,
-    path: "tentang",
+    path: "/tentang",
     text: "Tentang",
   },
   {
     id: 5,
-    path: "faq",
+    path: "/faq",
     text: "FAQ",
   },
 ]
@@ -84,12 +68,32 @@ export const navLinks = [
 export const faq = [
   {
     id: 1,
-    title: "Berapa jumlah guru yang ada di SMAN 1 Sembalun?",
+    title: "Apakah Boleh punya pacar 1?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
   {
     id: 2,
-    title: "Kapan SMAN 1 Sembalun membuka pendaftraan siswa baru?",
+    title: "Apakah Boleh punya pacar 2?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 3,
+    title: "Apakah Boleh punya pacar 3?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 4,
+    title: "Apakah Boleh punya pacar 4?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 5,
+    title: "Apakah Boleh punya pacar 5?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 6,
+    title: "Apakah Boleh punya pacar 6?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
 ]

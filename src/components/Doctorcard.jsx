@@ -101,7 +101,15 @@ function Doctorcard() {
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 <strong> Praktik :</strong> {selectedDoctor.practice}
               </p>
-
+              <Rating className="mt-5">
+                {selectedDoctor.rating.stars.map((star, index) => (
+                  <Rating.Star key={index} filled={star.filled} />
+                ))}
+                <p className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+                  {selectedDoctor.rating.average} out of{" "}
+                  {selectedDoctor.rating.maxRating}
+                </p>
+              </Rating>
               {/* Display other details here */}
             </div>
           </Modal.Body>

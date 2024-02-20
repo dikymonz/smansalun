@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 
 function Horizontalcard({ article }) {
-  const {title, author, postAt, body} = article;
+  const { title, author, postAt, body } = article;
 
   console.log(article);
 
-  const truncatedBody = body.split(" ").slice(0, 20).join(" ") + " ...";
+  const truncatedBody = body.slice(0, 200) + " ...";
 
   // Logika untuk menghitung selisih hari antara postAt dan tanggal sekarang
   const postDate = new Date(postAt);
@@ -13,7 +13,10 @@ function Horizontalcard({ article }) {
   const daysAgo = Math.floor((currentDate - postDate) / (1000 * 60 * 60 * 24));
 
   return (
-    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <article
+      className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+      data-aos="fade-up"
+    >
       <div className="flex justify-between items-center mb-5 text-gray-500">
         <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
           <svg
@@ -29,7 +32,7 @@ function Horizontalcard({ article }) {
             ></path>
             <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
           </svg>
-          Article
+          Artikel
         </span>
         <span className="text-sm">{`${daysAgo} hari yang lalu`}</span>
       </div>
@@ -52,7 +55,7 @@ function Horizontalcard({ article }) {
           href="#"
           className="inline-flex items-center font-medium text-color-primary-600 dark:text-primary-500 hover:underline"
         >
-          Read more
+          Selengkapnya
           <svg
             className="ml-2 w-4 h-4"
             fill="currentColor"
